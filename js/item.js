@@ -481,7 +481,7 @@ function showModal(item) {
   const modalBody = document.getElementById("modal-body");
   modalBody.innerHTML = `
     <img src="${item.image}" alt="${item.name}" class="img-fluid">
-    <p><strong>Price:</strong> $${item.price}</p>
+    <p><strong>Price:</strong> ₱${item.price}</p>
     <p><strong>Rating:</strong> ${item.rating}</p>
     <p><strong>Description:</strong> ${item.description}</p>
     <button class="btn btn-primary">Buy Now</button>
